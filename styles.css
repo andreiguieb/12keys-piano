@@ -1,0 +1,61 @@
+body{
+    text-align: center;
+    background-color: #FFFFE8;
+}
+h1{
+    color: #CDE990;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    font-size: 4rem;
+}
+footer{
+  color: black;
+  font-family: sans-serif;
+}
+
+button{
+    width: 5rem;
+    border-radius: 7px;
+    box-shadow: 5px 10px #FFD4D4;
+    
+    
+}
+.c, .d, .e, .f, .g, .a, .b{
+    
+    background-color: white;
+    color: white;
+    height: 20rem;
+    
+    
+}
+.csharp, .dsharp, .fsharp, .gsharp, .asharp{
+    /* border: none; */
+    background-color: black;
+    color: black;
+    height: 10rem;
+    width: 2rem;
+}
+.csharp{
+    position: absolute;
+    left: 458px;
+}
+.dsharp{
+    position: absolute;
+    left: 541px;
+}
+.fsharp{
+    position: absolute;
+    right: 628px;
+}
+.gsharp{
+    position:absolute;
+    right: 540px ;
+}
+.asharp{
+    position: absolute;
+    right: 455px;
+}
+.pressed {
+    box-shadow: 0 3px 4px 0 white;
+    opacity: 0.5;
+  }
